@@ -1,0 +1,33 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display:inline-flex;
+}
+body, html {
+    height: 100%;
+}
+.hero-image {
+  background-image: url("../Images/hero.jpg");
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.article{
+  display: flex;
+  padding: 1% 10% 0% 0%;
+}
+h4{
+  text-align:center;
+  display: block;
+}
